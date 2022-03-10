@@ -2,7 +2,6 @@
     "name": "bootstrap-template-2",
     "version": "1.0.0",
     "description": "bootstrap-template-2",
-    "main": "index.js",
     "scripts": {
         "clean": "rm -rf dist",
         "prettier": "npx prettier --write .",
