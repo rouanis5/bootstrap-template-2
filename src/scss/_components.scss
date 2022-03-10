@@ -1,0 +1,24 @@
+.main-title {
+    &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -1.5rem;
+        width: 30%;
+        height: 2px;
+        transform: translateX(-50%);
+        background: var(--green-color);
+    }
+}
+.icon-holder {
+    i {
+        &:first-child {
+            font-size: 15rem;
+            color: var(--section-color);
+        }
+        &:last-child {
+            font-size: 5rem;
+            color: var(--green-color) !important;
+        }
+    }
+}
