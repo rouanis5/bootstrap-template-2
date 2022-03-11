@@ -5,3 +5,6 @@
     --yellow-color: #ffc400;
     --section-color: #eff7fa;
 }
+.bg-secondary {
+    background-color: var(--section-color) !important;
+}
